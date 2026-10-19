@@ -4,12 +4,17 @@
 - npx nx reset
 - --------------------
 - npx nx graph
+- 
 - npx nx build api
+- 
 - npx nx build api
+- 
 - echo "// teste" >> packages/types/src/index.ts
 - npx nx affected -t build --base=HEAD
 - git restore .
+- 
 - ls dist/apps/api
+- 
 - node dist/apps/api/main.cjs
 ------------------
 - curl http://localhost:3000/api/health
